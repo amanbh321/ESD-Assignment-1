@@ -1,0 +1,205 @@
+/* General Styles */
+body, html {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ff5a5f;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff5a5f;
+}
+
+/* Hero Section */
+.banner {
+    position: relative;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.banner-background {
+    object-fit: cover;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.banner-content {
+    z-index: 2;
+    max-width: 800px;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: 700;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.banner p {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.banner .btn {
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    background-color: #ff5a5f;
+    border: none;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.banner .btn:hover {
+    background-color: #e14e56;
+}
+
+/* Product Listing Page */
+.product-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.product-card img:hover {
+    transform: scale(1.05);
+}
+
+.product-card .card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.product-card h5 {
+    font-size: 1.2rem;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+.product-card p {
+    font-size: 0.9rem;
+    color: #666666;
+    margin-bottom: 15px;
+}
+
+.product-card .btn {
+    background-color: #ff5a5f;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.product-card .btn:hover {
+    background-color: #e14e56;
+}
+
+/* Signup Page */
+.signup-container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.signup-container .form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 12px;
+}
+
+.signup-container .btn {
+    width: 100%;
+    background-color: #ff5a5f;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.signup-container .btn:hover {
+    background-color: #e14e56;
+}
+
+.signup-container a {
+    color: #ff5a5f;
+    font-weight: 500;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+}
+
+.signup-container a:hover {
+    color: #e14e56;
+}
+
+/* Footer */
+.footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Utility classes */
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.text-primary {
+    color: #ff5a5f !important;
+}
